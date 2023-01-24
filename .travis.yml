@@ -1,0 +1,22 @@
+language: python
+python:
+  - 3.6 # python version
+
+# update pip to the latest version
+before_install:
+  - python --version
+  - pip install -U pip # update pip
+
+install:
+  - pip install -r requirements.txt # install dependencies
+
+script:
+  - python -m unittest tests/multiply_tests.py # run unit test
+
+# this bit below automatically build and upload the library
+deploy:
+  provider: pypi
+  username: "__token__"
+  password: "$PYPI_TOKEN"
+  on:
+    branch: main

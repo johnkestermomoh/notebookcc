@@ -1,5 +1,6 @@
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
+from note_kes import multiply
 
 # To use a consistent encoding
 from codecs import open
@@ -13,7 +14,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 
-#  This call to setup() does all the work
+# This call to setup() does all the work
 
 setup(
     name="note_kes",
