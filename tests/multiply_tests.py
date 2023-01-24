@@ -1,6 +1,6 @@
 import unittest
 import math
-from notebookkes.multiply import Multiplication
+from notebookcc.multiply import Multiplication
 
 
 class MultiplicationTestCase(unittest.TestCase):

@@ -1,5 +1,5 @@
 # Import Multiplication from your library
-from notebookkes.multiply import Multiplication
+from notebookcc.multiply import Multiplication
 
 # Instantiate a Multiplication object
 multiplication = Multiplication(2)

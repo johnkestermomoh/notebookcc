@@ -21,10 +21,9 @@ setup(
     description="Demo library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://multiply.readthedocs.io/",
+    url="https://github.com/johnkestermomoh/notebookcc/",
     author="Jkom",
     author_email="example@email.com",
-    license="",
     classifiers=[
         "Intended Audience :: Developers",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
@@ -36,7 +35,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Operating System :: OS Independent"
     ],
-    packages=["medium_multiply"],
+    packages=["notebookcc"],
     include_package_data=True,
     install_requires=["numpy"]
 )
